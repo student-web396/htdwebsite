@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name = "viewport" content = "width=device-width",initial-scale=1.0">
+    <title>about us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="" class="roji"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="webhtd.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+           <h1>About US</h1>
+        </section>
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet illo odio laborum eveniet! <br>reprehenderit quibusdam?</p>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i> 
+            </div>
+            </section>
+            <section class="about-us">
+                <div class="row">
+                    <div class="about-col">
+                        <h1>We are first IT college in Hetauda</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima est quia deserunt. Repellendus voluptatum a praesentium ullam aliquam non cum aut excepturi quibusdam esse quia, enim quis suscipit ea nostrum.</p>
+                        <a href="" class="box red-btn">EXPLORE NOW</a>
+                    </div>
+                    <div class="about-col">
+                        <img src="discus.jpg">
+                    </div>
+                </div>
+            </section>
+         <script class>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks. style.right="0"
+        }
+        function hideMenu(){
+            navLinks. style.right="500px"
+        }
+        </script>
+        </body>
+        </html>
